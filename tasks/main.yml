@@ -1,0 +1,5 @@
+- name: copy index.html
+  copy:
+    src: index.html
+    dest: /usr/local/apache2/htdocs/
+    mode: 0644
